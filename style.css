@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "Andada Pro", serif;
+     box-sizing: border-box;
+}
+
+.main{
+    background-image: url('./images/WhatsApp\ Image\ 2025-08-01\ at\ 16.37.29_5cdfa366.jpg');
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    width: 100px;
+    margin: 10px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+ul li a{
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: rgb(22, 20, 56);
+}
+
+.info{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.info span{
+    color: rgb(29, 20, 205);
+    font-size: 30px;
+}
+
+pre{
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 25%;
+}
+
+.image img{
+    position: absolute;
+    height: 100%;
+    left: 40%;
+    transform: translate(-55%);
+    transition: left 2s ease;
+}
+
+.image:hover .prsn{
+    left: 55%;
+}
+
+.box{
+   display:inline-block;
+}
+
+.box img{
+    width: 400px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.box img:hover{
+    scale: 1.03;
+    box-shadow: 3px 6px 8px black;
+}
+
+.h2{
+    background-color: rgb(35, 123, 124);
+    color: aliceblue;
+    text-align: center;
+    margin: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.col{
+    height: 400px;
+    width: 300px;
+    border: 3px inset rgb(131, 71, 71);
+    background: linear-gradient(to top,rgb(29, 115, 119)50%,rgb(150, 197, 215)50%);
+    background-size: 100% 200%;
+    transition: all 2s;
+}
+.col:hover{
+    background-position: left bottom;
+    box-shadow: 2px 3px 4px black;
+}
+
+.col img{
+    width: 250px;
+}
+
+.col h4{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(31, 31, 156);
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.col p{
+    text-align: justify;
+    padding: 10px;
+}
+
+form{
+    width: 50%;
+    margin-left: 400px;
+}
+
+.input{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.cv{
+    background-color: green;
+    color: azure;
+    width: 200px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 30%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0b96ae; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
